@@ -1,0 +1,830 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 420px;
+  background-color: #ebd3f0;
+  background-size: contain;
+  margin-top: 100px;
+  overflow: hidden;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.footer-logo img {
+  width: 50px;
+}
+.footer-logo span {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: medium;
+}
+.footer-icons {
+  display: flex;
+  gap: 630px;
+}
+.footer-media {
+  overflow: hidden;
+}
+.footer-media img {
+  margin-top: 20px;
+  padding: 0px 10px;
+  width: 48px;
+  overflow: hidden;
+}
+
+.footer-details {
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+  gap: 300px;
+}
+.footer-about h3 {
+  margin-left: 30px;
+}
+.footer-contact h3,
+.footer-about h3,
+.footer-help h3 {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: large;
+}
+.footer-contact {
+  overflow: hidden;
+}
+.footer-contact p {
+  width: 200px;
+  line-height: 26px;
+  overflow: hidden;
+}
+.footer-about li,
+.footer-help li {
+  list-style: none;
+  padding-top: 10px;
+}
+.footer-contact p,
+.footer-about ul li a,
+.footer-help li {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: medium;
+  overflow: hidden;
+}
+.footer-about ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  margin-top: 40px !important;
+  width: 90%;
+}
+.copyright {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 100px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+}
+
+@media (max-width: 2560px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 420px;
+    background-color: #ebd3f0;
+    background-size: contain;
+    margin-top: 100px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+    margin-top: 20px;
+  }
+  .footer-logo {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 2049px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 420px;
+    background-color: #ebd3f0;
+    background-size: contain;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 1925px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 420px;
+    background-color: #ebd3f0;
+    background-size: contain;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+
+}
+
+@media (max-width: 1918px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    height: 420px;
+    background-color: #ebd3f0;
+    background-size: contain;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+    margin-top: 20px;
+  }
+  .footer-logo {
+    overflow: hidden;
+  }
+  hr {
+    margin-top: 10px !important;
+    margin-left: 40px !important;
+    width: 90%;
+  }
+}
+
+/* Medium Laptop */
+@media (max-width: 1110px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 360px;
+    background-color: #ebd3f0;
+    background-size: contain;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    margin-top: 20px;
+  }
+  .footer-logo {
+    margin-left: 20px;
+    overflow: hidden;
+  }
+  .footer-logo img {
+    width: 40px;
+  }
+  .footer-logo span {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: smaller;
+    overflow: hidden;
+  }
+  .footer-icons {
+    display: flex;
+    gap: 400px;
+  }
+  .footer-media img {
+    margin-top: 15px;
+    padding: 0px 10px;
+    width: 45px;
+  }
+
+  .footer-details {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    gap: 170px;
+  }
+  .footer-contact h3,
+  .footer-about h3,
+  .footer-help h3 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: medium;
+  }
+  .footer-contact {
+    overflow: hidden;
+  }
+  .footer-contact p {
+    width: 200px;
+    line-height: 26px;
+  }
+  .footer-about li,
+  .footer-help li {
+    list-style: none;
+    padding-top: 10px;
+  }
+  .footer-contact p,
+  .footer-about ul li a,
+  .footer-help li {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: smaller;
+  }
+  hr {
+    margin-top: 10px !important;
+    margin-left: 50px !important;
+    width: 80%;
+  }
+  .copyright {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+    overflow: hidden;
+  }
+  .footer-logo {
+    overflow: hidden;
+  }
+}
+@media (max-width: 1025px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 360px;
+    background-color: #ebd3f0;
+    background-size: contain;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    margin-top: 20px;
+  }
+  .footer-logo {
+    margin-left: 20px;
+    overflow: hidden;
+  }
+  .footer-logo img {
+    width: 40px;
+  }
+  .footer-logo span {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: smaller;
+    overflow: hidden;
+  }
+  .footer-icons {
+    display: flex;
+    gap: 400px;
+  }
+  .footer-media img {
+    margin-top: 15px;
+    padding: 0px 10px;
+    width: 45px;
+  }
+
+  .footer-details {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    gap: 170px;
+  }
+  .footer-contact h3,
+  .footer-about h3,
+  .footer-help h3 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: medium;
+  }
+  .footer-contact {
+    overflow: hidden;
+  }
+  .footer-contact p {
+    width: 200px;
+    line-height: 26px;
+  }
+  .footer-about li,
+  .footer-help li {
+    list-style: none;
+    padding-top: 10px;
+  }
+  .footer-contact p,
+  .footer-about ul li a,
+  .footer-help li {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: smaller;
+  }
+  hr {
+    margin-top: 10px !important;
+    margin-left: 50px !important;
+    width: 80%;
+  }
+  .copyright {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+    overflow: hidden;
+  }
+  .footer-logo {
+    overflow: hidden;
+  }
+}
+
+/* Tablet */
+@media (max-width: 806px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 320px;
+    background-color: #ebd3f0;
+    background-size: contain;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    margin-top: 20px;
+  }
+  .footer-logo {
+    margin-left: 40px;
+  }
+  .footer-logo img {
+    width: 35px;
+  }
+  .footer-logo span {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: small;
+  }
+  .footer-icons {
+    display: flex;
+    gap: 250px;
+  }
+  .footer-media img {
+    margin-top: 10px;
+    padding: 0px 10px;
+    width: 42px;
+  }
+
+  .footer-details {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    gap: 100px;
+  }
+  .footer-contact h3,
+  .footer-about h3,
+  .footer-help h3 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: smaller;
+    overflow: hidden;
+  }
+  .footer-contact p {
+    width: 200px;
+    line-height: 26px;
+    overflow-x: hidden;
+  }
+  .footer-about li,
+  .footer-help li {
+    list-style: none;
+    padding-top: 10px;
+    overflow-x: hidden;
+  }
+  .footer-help {
+    overflow: hidden;
+  }
+  .footer-contact p,
+  .footer-about li,
+  .footer-help li {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+    overflow-x: hidden;
+  }
+  hr {
+    margin-top: 10px !important;
+    margin-left: 60px !important;
+    width: 80%;
+  }
+  .copyright {
+    display: flex;
+    margin-top: 2px;
+    margin-right: 60px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+  }
+  .footer-logo {
+    overflow: hidden;
+  }
+}
+@media (max-width: 770px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 320px;
+    background-color: #ebd3f0;
+    background-size: contain;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    margin-top: 20px;
+  }
+  .footer-logo {
+    margin-left: 40px;
+  }
+  .footer-logo img {
+    width: 35px;
+  }
+  .footer-logo span {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: small;
+  }
+  .footer-icons {
+    display: flex;
+    gap: 250px;
+  }
+  .footer-media img {
+    margin-top: 10px;
+    padding: 0px 10px;
+    width: 42px;
+  }
+
+  .footer-details {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    gap: 100px;
+  }
+  .footer-contact h3,
+  .footer-about h3,
+  .footer-help h3 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: smaller;
+    overflow: hidden;
+  }
+  .footer-contact p {
+    width: 200px;
+    line-height: 26px;
+    overflow-x: hidden;
+  }
+  .footer-about li,
+  .footer-help li {
+    list-style: none;
+    padding-top: 10px;
+    overflow-x: hidden;
+  }
+  .footer-help {
+    overflow: hidden;
+  }
+  .footer-contact p,
+  .footer-about li,
+  .footer-help li {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+    overflow-x: hidden;
+  }
+  hr {
+    margin-top: 10px !important;
+    margin-left: 60px !important;
+    width: 80%;
+  }
+  .copyright {
+    display: flex;
+    margin-top: 2px;
+    margin-right: 60px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+  }
+  .footer-logo {
+    overflow: hidden;
+  }
+}
+
+/* mobile device  */
+@media (max-width: 450px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 260px;
+    background-color: #ebd3f0;
+    background-size: contain;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    margin-top: 20px;
+  }
+  .footer-logo {
+    margin-left: 20px;
+    width: 160px;
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .footer-logo img {
+    width: 40px;
+    height: 40px;
+  }
+  .footer-logo span {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: xx-small;
+    margin-top: 10px !important;
+  }
+  .footer-icons {
+    display: flex;
+    gap: 120px;
+  }
+  .footer-media img {
+    margin-top: 10px;
+    padding: 0px 5px;
+    width: 26px;
+  }
+
+  .footer-details {
+    margin-top: 20px;
+    margin-left: 35px;
+    display: flex;
+    gap: 30px;
+  }
+
+  .footer-contact h3,
+  .footer-about h3,
+  .footer-help h3 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-small;
+  }
+  .footer-contact p {
+    width: 120px;
+    line-height: 16px;
+  }
+  .footer-about {
+    overflow: hidden;
+  }
+  .footer-about li,
+  .footer-help li {
+    list-style: none;
+    padding-top: 5px;
+  }
+  .footer-contact p,
+  .footer-about ul li a,
+  .footer-help li {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-small;
+  }
+  hr {
+    margin-top: 0px !important;
+    margin-left: 40px !important;
+    width: 80%;
+  }
+  .copyright {
+    display: flex;
+    margin-top: 0px;
+    margin-right: 0px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-small;
+  }
+  .footer-icons {
+    display: flex;
+    gap: 130px;
+  }
+  .footer-media img {
+    margin-top: 10px;
+    padding: 0px 5px;
+    width: 23px;
+  }
+}
+@media (max-width: 396px) {
+  .footer-icons {
+    display: flex;
+    gap: 100px;
+  }
+}
+@media (max-width: 378px) {
+  .footer-icons {
+    display: flex;
+    gap: 100px;
+  }
+  .footer-media img {
+    margin-top: 10px;
+    padding: 0px 5px;
+    width: 23px;
+  }
+  .footer-icons {
+    display: flex;
+    gap: 90px !important;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 280px;
+    background-color: #ebd3f0;
+    background-size: contain;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+  .footer-details {
+    margin-top: 20px;
+    margin-left: 35px;
+    display: flex;
+    gap: 20px;
+  }
+  hr {
+    margin-top: 5px !important;
+  }
+  .copyright {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-right: 0px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-small;
+    width: 80%;
+  }
+}
+@media (max-width: 361px) {
+  .footer-icons {
+    display: flex;
+    gap: 70px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .footer {
+    height: 290px;
+  }
+  .footer-details {
+    margin-left: 1px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .footer-contact h3,
+  .footer-about h3,
+  .footer-help h3 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: xx-small;
+  }
+
+  .footer-logo img {
+    width: 40px;
+    height: 40px;
+  }
+  .footer-logo span {
+    font-size: 8px;
+  }
+  .footer-icons {
+    display: flex;
+    gap: 50px !important;
+    margin-left: -20px;
+  }
+  .footer-about {
+    overflow: hidden;
+  }
+  .footer-media img {
+    margin-top: 10px;
+    padding: 0px 5px;
+    width: 23px;
+    overflow: hidden !important;
+  }
+  .footer-help {
+    position: absolute;
+    visibility: hidden;
+  }
+  hr {
+    margin-top: 10px !important;
+    margin-left: 18px !important;
+    width: 90%;
+  }
+  .copyright {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-small;
+  }
+}

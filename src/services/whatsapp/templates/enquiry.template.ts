@@ -14,7 +14,7 @@ const enquirySchema = z.object({
 type EnquiryData = z.infer<typeof enquirySchema>;
 
 export const templateMeta: TemplateMeta<EnquiryData> = {
-    templateId: 'enquiry_ace_crm',
+    templateId: 'enquiry_ace_cloud',
     name: 'Enquiry Form',
     placeholders: [
         'fullName',
